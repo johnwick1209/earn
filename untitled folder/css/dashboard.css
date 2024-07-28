@@ -1,0 +1,155 @@
+.wallets-div{
+  display: flex;
+  margin-top:10px;
+  flex-direction: column;
+  gap: 20px;
+}
+.button.button-large2 {
+  margin-top:24px;
+  width: 260px!important;
+  height: 47px!important;
+}
+
+.button.button-large2:hover {
+  -webkit-filter: contrast(107%);
+  filter: contrast(107%);
+}
+.modal-dashboard{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.small-screen-button{
+  display: none;
+}
+.div-block-93{
+  display:flex;
+  flex-direction: row;
+  justify-content: space-between;
+  width:106%;
+  margin-left:5%;
+}
+.modal-h2-2{
+  margin-bottom:10px!important;
+}
+.modal-header{
+  padding: 24px 24px;
+}
+.button-large3{
+  padding: 0px!important;
+  padding-top: 4px!important;
+  padding-bottom: 4px!important;
+}
+.brtodisappear{
+  display: none;
+}
+.div-block-21{
+  height: 24px;
+}
+.text-block-3{
+  height: 24px;
+}
+.flex-title{
+  display:flex;
+  flex-direction:row;
+}
+.add-wallet-div{
+  display:flex;
+  justify-content:flex-end;
+  padding-left:3%;
+  padding-right:3%;
+}
+.section.no-bottom-space{
+  padding-top: 0px;
+}
+.div-block-93.profile{
+  flex-direction: column;
+  align-items: flex-start;
+  margin-left:25px;
+}
+
+@media (max-width: 991px) {
+  .modal-header{
+    padding: 24px 0px;
+  }
+  .div-block-93{
+    width: 100%;
+    padding-left: 3%;
+    padding-right: 3%;
+    margin-left: 0%;
+  }
+  .column-20.w-col.w-col-7{
+    width: 100%!important;
+  }
+  .shadow-lok{
+    margin-top:150px
+  }
+  .wallets-div{
+    width: 100%;
+  }
+  .form{
+    width: 100%;
+  }
+  .button-large3{
+    height: 38px!important;
+  }
+  .h2-3{
+    padding-left: 0px!important;
+  }
+  .small-screen-button{
+    display: inline-block;
+  }
+  .text-block-3{
+    text-align: left;
+  }
+}
+@media (max-width: 700px) {
+  .modal-dialog-pricing{
+    padding: 10px 10px;
+  }
+  .section.no-bottom-space{
+    margin-top:10px;
+  }
+}
+@media (max-width: 600px) {
+  .shadow-lok{
+    margin-top:95px
+  }
+
+  .button.button-large2{
+    margin-top:45px
+  }
+  .brtodisappear{
+    display: inline-block;
+  }
+  .modal-dialog{
+    width: 95%!important;
+  }
+  .div-block-93{
+  display:flex;
+
+  }
+}
+@media (max-width: 480px) {
+  .add-wallet-div{
+    all: revert;
+  }
+  .get-margin-top{
+    margin-top: 35px;
+  }
+  .shadow-lok{
+    margin-top:65px
+  }
+  .flex-title{
+    flex-direction: column;
+  }
+  .column-20.profile{
+    padding: 0px;
+  }
+  .div-block-93.profile{
+  padding:0px;
+  }
+  .button.button-large.button-large2.form.w-button.arrowgreen.profile-button{
+  width: 200px!important;
+  }
+}
